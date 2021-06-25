@@ -40,15 +40,15 @@
         <h3>Got any other ideas? Get your facts added to the list of tributes!</h3>
         <form>
           <label for="first-name"><b>First Name:</b></label>
-          <input type="text" placeholder="Your First name...">
+          <input type="text" placeholder="Your First name..." required>
           <br>
           <br>
           <label for="last-name"><b>Last Name:</b></label>
-          <input type="text" placeholder="Your Last name...">
+          <input type="text" placeholder="Your Last name..." required>
           <br>
           <br>
           <label for="phone-number"><b>Your Phone Number:</b></label>
-          <input type="number">
+          <input type="number" required>
           <br>
           <br>
           <label for="address"><b>Your Address:</b></label>
@@ -61,7 +61,10 @@
           <br>
           <br>
           <label for="tribute"><b>Your Tribute:</b></label>
-          <textarea id="tribute"></textarea>
+          <textarea id="tribute" required></textarea>
+          <br>
+          <br>
+          <button type="submit">Submit</button>
         </form>
       </section>
     </main>
